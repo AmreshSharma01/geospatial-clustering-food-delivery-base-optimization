@@ -78,11 +78,12 @@ Results were visualized using:
 ---
 
 ## Project Structure
-
-├── spatial_cluster_analysis.ipynb   # End-to-end geospatial clustering analysis
-├── images/                           # Output plots and map visualizations
-├── README.md                         # Project documentation
-└── .gitignore                        # Git ignore configuration
+```
+├── spatial_cluster_analysis.ipynb # End-to-end geospatial clustering analysis
+├── images/ # Output plots and map visualizations
+├── README.md # Project documentation
+└── .gitignore # Git ignore configuration
+```
 
 ---
 
