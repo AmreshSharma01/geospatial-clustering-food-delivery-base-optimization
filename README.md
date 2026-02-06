@@ -87,6 +87,15 @@ Results were visualized using:
 
 ---
 
+## Final Output (DBSCAN Clustering)
+
+The map below shows the final results produced using **DBSCAN clustering**.  
+Restaurant locations are grouped based on spatial density, with dense regions forming clusters and sparse locations treated as noise. The highlighted markers represent proposed delivery base locations derived from the dominant dense clusters identified by DBSCAN.
+
+![Final DBSCAN clustering output showing recommended delivery bases](images/final_output.png)
+
+---
+
 ## Conclusion
 
 This project demonstrates how spatial clustering can support data-driven decision-making for urban delivery operations. Among the evaluated methods, K-Means clustering proved most effective for identifying delivery base locations due to its stability, interpretability, and direct mapping between clusters and service hubs.
