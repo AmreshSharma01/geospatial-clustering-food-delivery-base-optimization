@@ -18,7 +18,7 @@ Urban food delivery efficiency depends heavily on how well service bases are loc
 ## Data Source
 
 Restaurant location data was sourced from **OpenStreetMap (OSM)** and retrieved programmatically using the **OSMnx** Python library.  
-Locations were filtered using the OpenStreetMap tag:{"amenity": "restaurant"}`
+Locations were filtered using the OpenStreetMap tag:`{"amenity": "restaurant"}`
 
 The study area was defined using city-level geographic boundaries, resulting in a georeferenced point dataset suitable for spatial analysis and clustering.
 
@@ -79,9 +79,10 @@ Results were visualized using:
 
 ## Project Structure
 
-├── spatial_cluster_analysis.ipynb
-├── images/
-└── README.md
+├── spatial_cluster_analysis.ipynb   # End-to-end geospatial clustering analysis
+├── images/                           # Output plots and map visualizations
+├── README.md                         # Project documentation
+└── .gitignore                        # Git ignore configuration
 
 ---
 
